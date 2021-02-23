@@ -1,0 +1,299 @@
+@charset "ISO-8859-1";
+
+
+p {
+	font-size: 14pt;
+}
+
+h1 {
+	font-size: 23pt;
+}
+
+body {
+	text-align: center;
+	background-color: powderblue;
+	margin: 0;
+}
+
+section {
+	background-color: white;
+	margin: 25px;
+	padding: 10px;
+}
+
+/*Body*/
+.section1 {
+	width: 400px;
+	height:550px;
+	position: relative;
+	margin: 6% auto;
+	background-color: white;
+	padding: 5px;
+	overflow: hidden;
+}
+
+/* Tables Design*/
+.table-desgin{	
+	transform: tranlate(-50%,-50%);
+	width:100%;
+	border-collapse:collapse;
+	border-spacing:0;
+	border-radius:12px 12px 0 0;
+	overflow:hidden;
+	box-shadow: 0 2px 12px rgba(32,32,32,.3);
+	background: #F0FFF0;
+	text-align: center;
+}
+
+.table-desgin-two{	
+	margin-left:auto;
+	margin-right:auto;
+	transform: tranlate(-50%,-50%);
+	width:50%;
+	border-collapse:collapse;
+	border-spacing:0;
+	border-radius:12px 12px 0 0;
+	overflow:hidden;
+	box-shadow: 0 2px 12px rgba(32,32,32,.3);
+	background: #F0FFF0;
+	text-align: center;
+}
+
+th,td{
+	padding:15px 20px;
+}
+th{
+	background: linear-gradient(to right, #FFD133,#3498db);
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+td{
+	font-family: sans-serif;
+}
+tr:nth-child(odd){
+	background-color:#F0F8F8;
+}
+
+.button-box{
+	width: 350px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+
+}
+.toggle-btn{
+	padding:10px 30px;
+	cursor: pointer;
+	background:transparent;
+	border:0;
+	outline:none;
+	position:relative;
+}
+
+.toggle-btns{
+	padding:10px 15px;
+	cursor: pointer;
+	background:transparent;
+	border:0;
+	outline:none;
+	position:relative;
+}
+#btn{
+	top:0;
+	left:0;
+	position:absolute;
+	width: 180px;
+	height: 100%;
+	background: linear-gradient(to right, #FFD133,#3498db);
+	border-radius: 30px;
+	transition:.5s;	
+}
+
+#btn2
+{
+	top:0;
+	left:0;
+	position:absolute;
+	width: 250px;
+	height: 100%;
+	background: linear-gradient(to right, #FFD133,#3498db);
+	border-radius: 30px;
+	transition:.5s;	
+}
+.input-group{
+	top:180px;
+	position:absolute;
+	width: 280px;
+	transition: .5s;
+}
+.input-field{
+	width: 250px;
+	border: 2px solid #3498db;
+	border-radius: 15px;
+	padding: 15px 10;
+	margin: 5px auto;
+	outline:none;
+	text-align: center;
+	background: transparant;
+}
+.input-field:focus{
+	width:280px;
+	border-color: #FFD133;
+}
+
+.input-field-1{
+	width: 400px;
+	border: 2px solid #3498db;
+	border-radius: 15px;
+	padding: 15px 10;
+	margin-left:auto;
+	margin-right:auto;
+	outline:none;
+	text-align: center;
+	background: transparant;
+}
+
+.input-field-1:focus{
+	width:450px;
+	border-color: #FFD133;
+}
+
+.submit-btn{
+	width: 85%;
+	padding: 10px 30px;
+	cursor:pointer;
+	display:block;
+	margin:auto;
+	background: linear-gradient(to right, #FFD133,#3498db);
+	border:0;
+	outline:none;
+	border-radius:30px;
+}
+#login{
+	left: 50px;
+}
+#signup{
+	left: 450px;
+}
+
+#addbooks{
+	left: 50px;
+}
+#deletebooks{
+	left: 45px;
+}
+
+/* Navigation bar*/
+.top {
+	overflow: hidden;
+	background: linear-gradient(150deg, #faca37 50%, #ffed4b 50%);
+	opacity: 0.8;
+	width: 100%;
+	padding-bottom: 5px;
+}
+
+.top h1 {
+	font-size: 26pt;
+	padding: 5px;
+}
+
+.navbar h1 {
+	font-size: 25px;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+	/*float: right;*/
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+	background-color: darkgrey;
+	color: white;
+}
+
+/* Footer*/
+footer {
+	overflow: hidden;
+	background: linear-gradient(150deg, #faca37 50%, #ffed4b 50%);
+	opacity: 0.8;
+	width: 100%;
+	position: bottom;
+	font-size: 20px;
+	padding: 5px;
+}
+
+/*For the test JBDC Connection example*/
+button {
+	background-color: rgba(189, 229, 195, 0.85); 
+	border: none;
+	color: black;
+	padding: 15px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+/* Search bar*/
+.top .search-container {
+	float: left;
+	padding-left: 400px;
+}
+
+.top input[type=text] {
+	padding: 6px;
+	font-size: 20px;
+	border: none;
+}
+.top .search-container button:focus
+{
+	border-color: #FFD133;
+}
+
+.top .search-container button {
+	float: left;
+	padding: 6px 10px;
+	background: #808080;
+	font-size: 20px;
+}
+
+.admin a{
+    background: linear-gradient(to right, #FFD133,#3498db);
+	float: center;
+	color: black;
+	text-align: center;
+	padding: 10px 120px;
+	text-decoration: none;
+	font-size: 12pt;
+    margin:5px;
+     border-radius: 12px;
+}
+
+.account{
+	float:right;
+}
+
+.aButton a{
+	background: linear-gradient(to right, #FFD133,#3498db);
+	float: center;
+	color: black;
+	text-align: center;
+	padding: 15px 45px;
+	text-decoration: none;
+	font-size: 25px;
+	margin:5px;
+}
+
+.aButton a:hover {
+	background-color: darkgrey;
+	color: white;
+}
+
